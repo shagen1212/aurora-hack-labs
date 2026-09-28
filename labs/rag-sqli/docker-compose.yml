@@ -1,0 +1,5 @@
+services:
+  target:
+    build: ./target
+    ports:
+      - "8083:8080"
